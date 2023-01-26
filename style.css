@@ -1,0 +1,439 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+
+/* Inicio Header */
+
+
+/* Configuração global menus */
+
+#header .menu-1 {
+    width: 100%;
+    height: 100px;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+}
+
+#header .menu-2 {
+    width: 100%;
+    height: 70px;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Fim Configuração global menus */
+
+#header .menu-1-bar img {
+    padding-left: 200px;
+}
+
+
+/* Configuração menu-1 */
+
+#header .menu-1-bar {
+    width: 1500px;
+    height: 90px;
+    background-color: white;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    display: flex;
+}
+
+#header .menu-1-bar p {
+    color: #f4b41a;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+#header .slogan {
+    font-size: 28px;
+    padding-left: 50px;
+}
+
+#header .produtos {
+    padding-left: 120px;
+    font-size: 20px;
+}
+
+#header .produtos:hover {
+    color: #000;
+}
+
+#header .sobre {
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+#header .ajuda {
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+
+/* Fim Configuração menu-1 */
+
+
+/* Fim configuração menu-2 */
+
+
+/* Configuração barra de pesquisa */
+
+.search-box {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    display: block;
+}
+
+.search-box:hover>.search-txt {
+    width: 250px;
+    padding: 0 6px;
+}
+
+.search-box:hover>.search-btn {
+    background: white;
+}
+
+.search-btn {
+    color: #141414;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #000;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+
+/* Fim configuração barra de pesquisa */
+
+
+/* Configuração menu produtos */
+
+.produtos {
+    display: flex;
+}
+
+.produtos p {
+    font-size: 20px;
+}
+
+#header .bebidas {
+    color: #fff;
+}
+
+#header .bebidas:hover {
+    color: #f4b41a;
+    transition: 0.4s;
+}
+
+#header .limpeza {
+    color: #fff;
+}
+
+#header .limpeza:hover {
+    color: #f4b41a;
+    transition: 0.4s;
+}
+
+#header .mercearia {
+    color: #fff;
+}
+
+#header .mercearia:hover {
+    color: #f4b41a;
+    transition: 0.4s;
+}
+
+#header .doces {
+    color: #fff;
+}
+
+#header .doces:hover {
+    color: #f4b41a;
+    transition: 0.4s;
+}
+
+
+/* Fim configuração menu produtos */
+
+
+/* Fim configuração menu-2 */
+
+
+/* Fim Header */
+
+.branco {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+
+/* Inicio do conteudo do site */
+
+#conteudo {
+    display: flex;
+    justify-content: center;
+    background-image: url(img/bg-conteudo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    padding-top: 50px;
+    word-break: break-word;
+}
+
+#conteudo .ofertas img {
+    padding-top: 90px;
+    padding-left: 150px;
+}
+
+#conteudo .offers-1 {
+    color: #141414;
+    padding-top: 200px;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#conteudo .offers-2 {
+    color: #242424;
+    font-size: 19px;
+    padding-top: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*inicio produtos/promoçoes*/
+
+#produto {
+    height: 500px;
+    padding-top: 50px;
+}
+
+#produto .itens {
+    display: flex;
+    justify-content: center;
+}
+
+#produto .promo-1 {
+    display: flex;
+    justify-content: center;
+}
+
+#produto .promo-2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#produto .promo-3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#produto .promo img {
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+    padding: 5px;
+}
+
+
+/*fim produtos/promoçoes*/
+
+
+/* Inicio temporizador */
+
+.count-wrapper {
+    width: 140px;
+    height: 140px;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.count-wrapper div {
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    color: #141414;
+}
+
+.count-wrapper span {
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding: .2rem 0;
+    background: #999;
+}
+
+.alert {
+    animation: alert 1s linear infinite alternate;
+}
+
+@keyframes alert {
+    0% {
+        background: #112;
+    }
+    100% {
+        background: #a11;
+    }
+}
+
+.promo-1 img.img-hover {
+    display: none;
+    transition: 1s;
+}
+
+.promo-1:hover img.img-default {
+    display: none;
+    transition: 1s;
+}
+
+.promo-1:hover img.img-hover {
+    display: inherit;
+    transition: 1s;
+}
+
+
+/* Fim temporizador */
+
+
+/* Inicio Footer */
+
+#footer {
+    width: 100%;
+    height: 1150px;
+    background-color: #141414;
+}
+
+#home-btn {
+    position: fixed;
+    margin: 15px;
+    margin-top: 300px;
+    z-index: 5000;
+    bottom: 0;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover {
+    letter-spacing: .2rem;
+}
+
+.contact .row {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.contact .row .map {
+    width: 500px;
+}
+
+.contact .row form {
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h3 {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.contact .row form .inputBox {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #fff;
+}
+
+.contact .row form .inputBox-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #fff;
+}
+
+.contact .row form .inputBox span {
+    color: #141414;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.contact .row form .inputBox input {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #141414;
+    text-transform: none;
+    background: none;
+}
+
+.contact .row form .inputBox-2 input {
+    width: 100%;
+    height: 200px;
+    padding: 5rem;
+    font-size: 1.7rem;
+    color: #141414;
+    text-transform: none;
+    background: none;
+}
+
+
+
+/* Fim Footer */
+
+
+/* Fim do conteudo do site */

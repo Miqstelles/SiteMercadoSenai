@@ -1,0 +1,376 @@
+/*Config global*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+ 
+}
+/* Inicio Header */
+
+
+/* Configuração global menus */
+
+#header .menu-1 {
+    width: 100%;
+    height: 100px;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+}
+
+#header .menu-2 {
+    width: 100%;
+    height: 70px;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Fim Configuração global menus */
+
+#header .menu-1-bar img {
+    padding-left: 200px;
+}
+
+
+/* Configuração menu-1 */
+
+#header .menu-1-bar {
+    width: 1500px;
+    height: 90px;
+    background-color: white;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    display: flex;
+}
+
+#header .menu-1-bar p {
+    color: #f4b41a;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+#header .slogan {
+    font-size: 28px;
+    padding-left: 50px;
+}
+
+#header .produtos {
+    padding-left: 120px;
+    font-size: 20px;
+}
+
+#header .produtos:hover {
+    color: #000;
+}
+
+#header .sobre {
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+#header .ajuda {
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+
+/* Fim Configuração menu-1 */
+
+
+/* Fim configuração menu-2 */
+
+
+/* Configuração barra de pesquisa */
+
+.search-box {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    display: block;
+}
+
+.search-box:hover>.search-txt {
+    width: 250px;
+    padding: 0 6px;
+}
+
+.search-box:hover>.search-btn {
+    background: white;
+}
+
+.search-btn {
+    color: #141414;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #000;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+
+/* Fim configuração barra de pesquisa */
+
+
+/* Configuração menu produtos */
+
+.produtos {
+    display: flex;
+}
+
+.produtos p {
+    font-size: 20px;
+}
+
+#header .bebidas {
+    color: #fff;
+}
+
+#header .bebidas:hover {
+    color: #f4b41a;
+    transition: 0.4s;
+}
+
+#header .limpeza {
+    color: #fff;
+}
+
+#header .limpeza:hover {
+    color: #f4b41a;
+    transition: 0.4s;
+}
+
+#header .mercearia {
+    color: #fff;
+}
+
+#header .mercearia:hover {
+    color: #f4b41a;
+    transition: 0.4s;
+}
+
+#header .doces {
+    color: #fff;
+}
+
+#header .doces:hover {
+    color: #f4b41a;
+    transition: 0.4s;
+}
+
+
+/* Fim configuração menu produtos */
+
+
+/* Fim configuração menu-2 */
+
+
+/* Fim Header */
+.branco {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+
+/* Banner */
+
+#banner {
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+/* Fim Banner */ 
+
+
+/* Inicio Conteudo */ 
+.sobre-txt{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+#conteudo .map-brasil {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#conteudo .info-text{
+    width: 20%;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+#conteudo .estamos {
+    font-weight: bold;
+   font-size: 30px;
+   text-align: center;
+}
+
+
+#conteudo .time{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#conteudo .carrinho {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.anuncios {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 89%;
+    padding-left: 5px;
+}
+
+.ad .anuncios-2{
+    width: 0px;
+    display: 0px;
+    position: absolute;
+    right: 100%;
+}
+
+/* Inicio Footer */
+
+#footer {
+    width: 100%;
+    height: 1150px;
+    background-color: #141414;
+}
+
+#home-btn {
+    position: fixed;
+    margin: 15px;
+    margin-top: 300px;
+    z-index: 5000;
+    bottom: 0;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover {
+    letter-spacing: .2rem;
+}
+
+.contact .row {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.contact .row .map {
+    width: 500px;
+}
+
+.contact .row form {
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h3 {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.contact .row form .inputBox {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #fff;
+}
+
+.contact .row form .inputBox-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #fff;
+}
+
+.contact .row form .inputBox span {
+    color: #141414;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.contact .row form .inputBox input {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #141414;
+    text-transform: none;
+    background: none;
+}
+
+.contact .row form .inputBox-2 input {
+    width: 100%;
+    height: 200px;
+    padding: 5rem;
+    font-size: 1.7rem;
+    color: #141414;
+    text-transform: none;
+    background: none;
+}
+
+
+/* media queries  */
+
+
+/* Fim Footer */
+
+/* Fim Conteudo */ 
